@@ -1,0 +1,79 @@
+Chameleon installer log - Tue Oct  3 11:19:08 +06 2017
+Installer version: 2.4svn 2898
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     FDisk_partition_scheme                        *250.1 GB   disk0
+   1:               Windows_NTFS                         179.9 GB   disk0s1
+   2:                  Apple_HFS mac                     53.8 GB    disk0s2
+   3:                  Apple_HFS Sierra Custom Installer 16.4 GB    disk0s3
+
+======================================================
+Backup Chameleon files
+Backing up /Volumes/mac/Extra folder to /Volumes/mac/Extra-Backups/2017-10-03-11h19/Extra
+======================================================
+Clearing options...
+======================================================
+Running Boot0hfs postinstall script
+Target volume = /Volumes/mac on /dev/disk0s2
+Target disk has existing Windows boot loader - Will replace with boot0md (boot0workV2).
+Detected a Windows installation on this volume.
+======================================================
+Written boot0hfs to /dev/rdisk0.
+Written boot1h to /dev/rdisk0s2.
+Written boot to /Volumes/mac on /dev/disk0s2.
+======================================================
+Preparing to check target disk for previous installations.
+Checking disk0.
+Nothing found that could cause any problems.
+======================================================
+Boot0hfs script complete
+======================================================
+Added boot option: KernelBooter_kexts=Yes
+==============================================================================
+Writing kernel patcher option: KernelBooter_kexts=Yes
+------------------------------------------------------------------------------
+Added boot option: KernelPm=Yes
+==============================================================================
+Writing kernel patcher option: KernelPm=Yes
+------------------------------------------------------------------------------
+Added boot option: AppleRTCPatch=Yes
+==============================================================================
+Writing kexts patcher option: AppleRTCPatch=Yes
+File Doesn't Exist, Will Create: //Extra/kexts.plist
+------------------------------------------------------------------------------
+Added boot option: OrangeIconFixSata=Yes
+==============================================================================
+Writing kexts patcher option: OrangeIconFixSata=Yes
+------------------------------------------------------------------------------
+Added boot option: TrimEnablerSata=Yes
+==============================================================================
+Writing kexts patcher option: TrimEnablerSata=Yes
+------------------------------------------------------------------------------
+Added boot option: AICPMPatch=Yes
+==============================================================================
+Writing kexts patcher option: AICPMPatch=Yes
+------------------------------------------------------------------------------
+Module klibc installed
+Module uClibc installed
+Added boot option: RebootOnPanic=No
+Added boot option: EthernetBuiltIn=Yes
+Added boot option: USBBusFix=Yes
+Added boot option: Kernel Flags=-f
+Added boot option: Kernel Flags=npci=0x2000
+Added boot option: Kernel Flags=darkwake=0
+Added boot option: Kernel Flags=dart=0
+Added boot option: DropSSDT=Yes
+Added boot option: GenerateCStates=Yes
+Added boot option: GeneratePStates=Yes
+Added boot option: Graphics Mode=1920x1200x32
+Added boot option: GraphicsEnabler=Yes
+Theme Default installed
+======================================================
+Running Post postinstall script
+Target volume = /Volumes/mac
+======================================================
+Unmount all volumes named EFI
+======================================================
+Post postinstall script complete
+chmod: /Volumes/mac/Extra/Extra-Install_Log.txt: No such file or directory
