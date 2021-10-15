@@ -11,5 +11,6 @@
 | 有线网卡 | BCM5761e |
 | 无线网卡 | Intel 5100 |
 
+主要是将安装盘中的exter的目录复制到系统盘中
 
 在安装后，本身系统无法使用，需要手动将RT2870USBWirelessDriver.kext，RemoteVirtualInterface.kext两个文件从系统S/L/E目录下去掉
