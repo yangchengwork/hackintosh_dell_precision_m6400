@@ -9,11 +9,11 @@
 # 安装硬盘启动
 
 尝试很多方式，还是使用变色龙的方式可以启动。参考http://eisneim.github.io/articles/2013-2-install-hackintosh-to-pc-efi.html可以写入
-主要命令是
 
-{
+主要命令是
+```
 newfs_hfs -v EFI /dev/disk0s1
 复制boot、Extra、Extensions、com.apple.Boot.plist、Themes、dsdt.aml,update.sh
 fdisk -f boot0 -u -y /dev/rdisk0
 dd if=boot1h of=/dev/rdisk0s1
-}
+```
