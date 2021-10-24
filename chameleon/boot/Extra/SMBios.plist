@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SMbiosdate</key>
+	<string>09/03/09</string>
+	<key>SMbiosvendor</key>
+	<string>Apple Inc.</string>
+	<key>SMbiosversion</key>
+	<string>IM101.88Z.00CC.B00.0909031926</string>
+	<key>SMboardproduct</key>
+	<string>Mac-F2268CC8</string>
+	<key>SMfamily</key>
+	<string>iMac</string>
+	<key>SMmanufacter</key>
+	<string>Apple Inc.</string>
+	<key>SMmanufacturer</key>
+	<string>Apple Inc.</string>
+	<key>SMproductname</key>
+	<string>iMac10,1</string>
+	<key>SMserial</key>
+	<string>CK0196W5B9U</string>
+	<key>SMsystemversion</key>
+	<string>1.0</string>
+</dict>
+</plist>

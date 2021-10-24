@@ -1,0 +1,9 @@
+unrecognized option /Volumes/EFI/Extra/Extensions.mkext
+usage: kextcache -prelinked-kernel <filename> [options] [--] [kext or directory]
+       kextcache -system-prelinked-kernel
+       kextcache [options] -prelinked-kernel
+       kextcache -invalidate <volume> 
+       kextcache -update-volume <volume> [options]
+       kextcache -system-caches [options]
+
+use kextcache -help for an explanation of each option
