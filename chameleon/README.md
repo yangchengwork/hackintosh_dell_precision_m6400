@@ -17,3 +17,14 @@ newfs_hfs -v EFI /dev/disk0s1
 fdisk -f boot0 -u -y /dev/rdisk0
 dd if=boot1h of=/dev/rdisk0s1
 ```
+
+尝试使用ArchLinux的Grub启动，要在启动项中加
+```
+menuentry "chameleon" {
+	set root='(hd0,msdos1)'
+	echo 'Loading Memdisk...'
+	linux16 /usr/lib/syslinux/bios/memdisk iso raw
+	echo 'Loading ISO...'
+	initrd16 /iso/wowpc.iso
+}
+```
