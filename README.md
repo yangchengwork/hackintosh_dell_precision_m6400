@@ -16,6 +16,7 @@
 使用的是chameleon，安装10.13。主要是将安装盘中的exter的目录复制到系统盘中，**默认没有声音现在尝试在S**/L/E下加入AppleAlc.kext
 
 安装时要注意修改用户名，否则会使用Apple ID做为用户名
+
 在安装后，本身系统无法使用，需要手动将RT2870USBWirelessDriver.kext，RemoteVirtualInterface.kext两个文件从系统S/L/E目录下去掉
 
 ## 多系统分区
